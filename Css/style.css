@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap');
+h1,
+h2,
+h3,
+h4{
+	font-family: 'Nunito', sans-serif;
+}
+#botonera{
+	background-color:#F4F4F4 ;
+}
+#botonera img{
+	width: 150px;
+}
+#botonera ul{
+	font-size: 1.5rem;
+	}
+ #botonera li:hover{
+	font-size: 2rem;
+	cursor: pointer;
+}
+.footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	}
+.bg-black{
+	background-color: rgba(0,0,0,1);
+}
+.titulo--m{
+	font-size: 1rem;
+	margin-top: 10px;
+}
+.footer__list{
+	list-style: none;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.mediaIcons{
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.pie__icon--sm{
+	width: 70px;
+}
+.textH3{
+	color: #f19d2c;
+			font-size: 2rem;
+			margin: 5px auto;
+			padding: 5px 2px;
+			box-sizing: border-box;
+}
+.scale:hover{
+	transform:scaley(.9);
+	cursor: pointer;
+	transition: 2s;
+}
