@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap');
+*{
+	margin: auto;
+}
 h1,
 h2,
 h3,
